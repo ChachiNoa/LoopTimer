@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema Base -->
+    <style name="Theme.CustomTimer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/magma_red</item>
+        <item name="colorPrimaryVariant">@color/magma_red_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/magma_red</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Tema Oscuro -->
+    <style name="Theme.CustomTimer.Dark" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/dark_orange</item>
+        <item name="colorPrimaryVariant">@color/dark_orange_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/grey_dark</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+</resources>

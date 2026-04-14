@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_dark">#121212</color>
+    
+    <!-- Modo Claro: Rojo Magma -->
+    <color name="magma_red">#B22222</color>
+    <color name="magma_red_dark">#8B0000</color>
+    
+    <!-- Modo Oscuro: Naranja Oscuro -->
+    <color name="dark_orange">#CC5500</color>
+    <color name="dark_orange_light">#FF8C00</color>
+</resources>

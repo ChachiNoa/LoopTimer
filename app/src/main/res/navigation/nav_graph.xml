@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.timerrepeticiones.FirstFragment"
+        android:label="Mis Timers"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_timerEditFragment"
+            app:destination="@id/timerEditFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.timerrepeticiones.SecondFragment"
+        android:label="Cronómetro"
+        tools:layout="@layout/fragment_second">
+        <argument
+            android:name="timer"
+            app:argType="com.example.timerrepeticiones.model.TimerWorkout" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/timerEditFragment"
+        android:name="com.example.timerrepeticiones.TimerEditFragment"
+        android:label="Configurar Timer"
+        tools:layout="@layout/fragment_timer_edit" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.timerrepeticiones.SettingsFragment"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

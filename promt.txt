@@ -1,0 +1,11 @@
+Me gustaría hacer una app para cronometrar repeticiones, es decir, el usuario pone un tiempo y la cantidad de veces que ese tiempo se va a repetir para hacer por ejemplo ejercicios en el gym. 
+Quiero que la interfaz sea sencilla. 
+Quiero estas pantallas:
+- Una pantalla inicial donde se vea una lista de cronometros ya creados y que abajo en la derecha tenga un botón de + para añadir un nuevo timer. 
+- El timer, quiero que se vea como el cronometro del reloj de android, cada vez que el tiempo acabe quiero que la aplicacion haga un sonido y que la pantalla haga algún cambio visual de colores para percatarte en todo momento de lo que queda y de cuando cambia, aunque no escuches el movil (o no lo veas). 
+-La configuracion o creacion de los timers. Aquí quiero que se pueda configurar muy abiertamente, es decir, por etapas, por ejemplo... El usuario puede configurar en un mismo timer las etapas a b y c que se repetiran en bucle las veces que el usuario quiera. Cada etapa con el tiempo que el usuario quiera. Puede hacer la cantidad de etapas que le plazca y configurarlo todo lo que quiera, como poniendole nombre a las etapas o diferentes pitidos. Quiero que la app tenga pitidos o que el usuario los pueda importar desde el movil. 
+Un ejemplo sería que el usuario haga 2 etapas, la A y la B. La A de 30 segundo y se llamará ejercicio y la B se llamará descanso de 20 segundos. Todo el conjunto quiero que se repita un total de 5 veces por ejemplo. 
+
+Todo lo que el usuario cree se quedará guardado aunque cierre y vuelva a abrir la app y si se peude, que el usuario pueda crear grupos en una barra desplegable a la derecha, que se puedan personalizar. 
+En resumen quiero una app completamente personalizable que se trate de timers para hacer ejercicio, trabajar, estudiar... 
+Tambien me gustaría que la app viniera como con una base de ejemplo que se pueda cambiar o borrar para que el usuario tenga algo ya de base
